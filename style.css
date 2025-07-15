@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+font-family: "inter", sans-serif;
+background: #24292f;
+}
+
+main {
+display: flex;
+margin: 40px auto;
+height: 720px;
+width: 1000px;
+justify-content: center;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312)
+}
+img {
+border-radius: 10px 0px 0px 10px;
+}
+button {
+width: 100%;
+margin: 1rem 0;
+padding: 0.8rem 1.2rem;
+background-color: #000;
+border: none;
+color: #fff;
+border-radius: 10px;
+box-shadow: 1px 1px 6px #fff;
+font-size: 1rem ;
+transition:0.2s;
+cursor: pointer;
+}
+button:hover{
+    background-color:#24292f;
+transform: scale(0.9);
+}
+
+.segunda{ 
+width: 742px;
+padding: 30px 120px;
+height: 720px;  
+background-color:red;
+border-radius: 0px 10px 10px 0px;
+}
+.title{
+color: black;
+margin-bottom: 25px;
+}
+.subtitle{
+color: yellow;
+margin-bottom: 25px;
+}
+.input-box{
+border: none;
+box-shadow: 1px 1px 6px #00000041;
+}
+
+.produto{
+width: auto;
+}
+
+.produto li{
+display:inline-block;
+align-items: center;
+width: 40%;
+
+
+} 
+
+
